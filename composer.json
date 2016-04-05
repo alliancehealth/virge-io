@@ -1,0 +1,17 @@
+{
+    "name": "virge/io",
+    "description": "Virge::IO provides functions to save files, read files, retrieve file paths, and create and check writeable folders",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Kramer",
+            "email": "kramer@siosphere.com"
+        }
+    ],
+    "require-dev": {
+        "virge/core": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {"Virge\\": "Virge/"}
+    }
+}
